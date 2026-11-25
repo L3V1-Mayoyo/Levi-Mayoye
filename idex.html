@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styl.css" rel="stylesheet">
+
+    <title>Foodie</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+
+            <div class="logo">
+                <img src="chef-hat.png" alt="Chef Hat">
+                <h1>Foodie</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a class="nav-button" href="#home">Home</a></li>
+                    <li><a class="nav-button" href="#menu">Menu</a></li>
+                    <li><a class="nav-button" href="about.html">About</a></li>
+                    <li><a class="nav-button" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h2>Good Food. Good Mood.</h2>
+
+            <p>Delicious meals made easy!</p>
+
+            <button class="explore-btn" type="button"
+                onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">
+
+                Explore Menu
+
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="Sizzling Gourmet Cheeseburger Banner (1).png"
+                alt="Delicious Gourmet Cheeseburger">
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+
+        <h2 class="menu-title">Our Delicious Menu</h2>
+
+        <p class="menu-subtitle">
+            Choose your favourite meal!
+        </p>
+
+        <div class="food-container">
+
+
+            <!-- PIZZA -->
+            <div class="food-card">
+
+                <img src="Delicious Cheesy Pizza 🍕 _ Homemade Pizza Inspiration.jpg"
+                    alt="Delicious Pizza">
+
+                <h3>Pizza</h3>
+
+                <p>Fresh, cheesy and full of flavour.</p>
+
+            </div>
+
+
+            <!-- BURGER -->
+            <div class="food-card">
+
+                <img src="Sizzling Gourmet Cheeseburger Banner (1).png"
+                    alt="Delicious Burger">
+
+                <h3>Burger</h3>
+
+                <p>Juicy burgers made with fresh ingredients.</p>
+
+            </div>
+
+
+            <!-- CHICKEN -->
+            <div class="food-card">
+
+                <img src="Crispy Fried Chicken Leg Piece 🍗🔥 _ Juicy & Crunchy Chicken Recipe.jpg"
+                    alt="Crispy Fried Chicken">
+
+                <h3>Chicken</h3>
+
+                <p>Crispy, tasty and freshly prepared.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <!-- About opens a separate about.html page -->
+
+    <section id="about">
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <!-- Contact opens a separate contact.html page -->
+
+    <section id="contact">
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>Good food never goes out of style. ♡</p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

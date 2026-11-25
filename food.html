@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Food Favourites</title>
+
+    <link href="styl.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="container">
+
+        <div class="logo">
+            <img src="chef-hat.png" alt="Foodie Chef Hat">
+            <h2>FOODIE</h2>
+        </div>
+
+        <nav>
+            <a href="idex.html#home" class="nav-button">Home</a>
+            <a href="idex.html#menu" class="nav-button">Menu</a>
+            <a href="idex.html#about" class="nav-button">About</a>
+            <a href="idex.html#contact" class="nav-button">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- FOOD SECTION -->
+    <section class="food-section">
+
+        <!-- FOOD HEADING -->
+        <h1 id="food-heading" style="display: none;"></h1>
+
+        <p id="food-description" style="display: none;"></p>
+
+
+        <!-- SPECIAL OFFER -->
+        <div class="special-offer">
+
+            <h2>TODAY'S SPECIAL OFFER</h2>
+
+            <!-- RAINBOW ARROW POINTING DOWN -->
+            <div class="rainbow-line"></div>
+
+        </div>
+
+
+        <!-- PIZZA IMAGE -->
+        <div id="pizza-image-container"
+            style="text-align: center; display: none; padding: 0 20px 20px;">
+
+            <img src="Neon Pizza Trio Menu.png"
+                alt="Margherita, Pepperoni and Vegetable Pizza"
+                style="width: 90%; max-width: 1000px; border-radius: 18px;">
+
+        </div>
+
+
+        <!-- BURGER IMAGE -->
+        <div id="burger-image-container"
+            style="text-align: center; display: none; padding: 0 20px 20px;">
+
+            <img src="Neon Burger Favourites Menu.png"
+                alt="Classic Burger, Bacon Burger and Chicken Burger"
+                style="width: 90%; max-width: 1000px; border-radius: 18px;">
+
+        </div>
+
+
+        <!-- CHICKEN IMAGE -->
+        <div id="chicken-image-container"
+            style="text-align: center; display: none; padding: 0 20px 20px;">
+
+            <img src="Neon Chicken Favourites Feast.png"
+                alt="Chicken Strips, Chicken Drumsticks and Chicken Burger"
+                style="width: 90%; max-width: 1000px; border-radius: 18px;">
+
+        </div>
+
+
+        <!-- FOOD TYPES -->
+        <div class="food-container" id="food-types"></div>
+
+
+        <!-- BACK TO MENU BUTTON -->
+        <a href="idex.html#menu" class="explore-btn">
+            Back to Menu
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Good food never goes out of style. ♡</p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="food.js"></script>
+
+</body>
+
+</html>
